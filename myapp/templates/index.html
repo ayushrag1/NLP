@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/static/index_style.css">
+
+</head>
+<body>
+   <div class="heading">
+      <h1>Sentence Similarity Score Calculator</h1>
+   </div>
+   <form action="/similarityScore" method="post">
+          <div class="container">
+
+              <div class="sen">
+                  <label for="sentence1">
+                      Enter the First Sentence
+                  </label>
+                  </br>
+                  </br>
+                  <textarea name="sentence1" id="sentence1" placeholder="Hi, I am Anurag" cols="30" rows="16" cols="80"></textarea>
+              </div>
+
+              <div class="sen">
+                  <label for="sentence1">
+                      Enter the Second Sentence
+                  </label>
+                  </br>
+                  </br>
+                  <textarea name="sentence2" id="sentence2" placeholder="Hi, I am Anurag"  cols="30" rows="16" cols="80"></textarea>
+              </div>
+              
+          </div>
+          <div class="button">
+              <button type="submit">Submit</button>
+          </div>
+          <div class="answer">
+              {% if result %}
+              <center>
+                  <h1>Hey! The Similarity Score is {{result}} %</h1>
+              </center> 
+              {% endif %}
+          </div>
+      </div>
+  </form>
+   
+   <div class="footer">
+      <footer>
+          <p>© 2023 Designed and Developed By Anurag</p>
+          <div class="connect">
+              <ul>
+                  <li>
+                      <a href="https://github.com/ayushrag1">GitHub</a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/anurag-97573619a/">Linkedln</a>
+                  </li>
+                  <li>
+                      <a href="mailto:ayadav102301@gmail.com">E-mail</a>
+                  </li>
+              </ul>
+          </div>
+      </footer>
+  </div>
+</body>
+</html>
