@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+*.pkl
 # Distribution / packaging
 .Python
 build/
@@ -122,8 +122,12 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.app_venv
+.vscode
+vscode/
 env/
 venv/
+app_venv/
 ENV/
 env.bak/
 venv.bak/
@@ -137,7 +141,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
+/
 # mypy
 .mypy_cache/
 .dmypy.json
