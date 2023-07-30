@@ -1,6 +1,8 @@
 ## Sentence-Similarity-Score-Using-NLP
 # Calculate the similarity between two sentences
 
+# Live Working Interface
+![Live Demo](Result Page.png)
 
 # Setting up Python Virtual Environment for Running Flask App
 
