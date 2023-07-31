@@ -2,7 +2,8 @@
 # Calculate the similarity between two sentences
 
 # Live Working Interface
-![Live Demo](Result Page.png)
+![Result Page.png](https://github.com/ayushrag1/Sentence-Similarity-Score-Using-NLP/assets/90321099/1a7c2aa0-a734-424e-b426-815ccba35ad0)
+
 
 # Setting up Python Virtual Environment for Running Flask App
 
@@ -148,6 +149,7 @@ docker rmi flask_app:latest
 ```
 
 ## Customization
+
 
 If your application requires specific environment variables or configuration options, you can modify the `Dockerfile` or use Docker Compose to manage multiple services.
 
