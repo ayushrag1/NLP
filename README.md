@@ -1,4 +1,4 @@
-## Sentence-Similarity-Score-Using-NLP
+## Sentence-Similarity-Score-Using-BERT
 # Calculate the similarity between two sentences
 
 # Live Working Interface
